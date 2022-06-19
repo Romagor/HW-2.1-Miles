@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int ticketPrice = 10;
+        int ticketPrice = 100;
         int minRubles = 20;
 
         if (ticketPrice >= 20) {
