@@ -4,10 +4,12 @@ public class Main {
         int ticketPrice = 100;
         int minRubles = 20;
 
+        int miles;
         if (ticketPrice >= 20) {
-            System.out.println((ticketPrice / minRubles) + " miles");
+            miles = ticketPrice / minRubles;
         } else {
-            System.out.println((ticketPrice / minRubles) + " miles");
+            miles = 0;
         }
+        System.out.println(miles);
     }
 }
